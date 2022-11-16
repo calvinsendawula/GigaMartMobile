@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemAccount"
+        android:title="Account"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemAddress"
+        android:title="Address"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemSecurity"
+        android:title="Security"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemPaymentMethod"
+        android:title="Payment Method"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemPastOrders"
+        android:title="Past Orders"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemLogout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
