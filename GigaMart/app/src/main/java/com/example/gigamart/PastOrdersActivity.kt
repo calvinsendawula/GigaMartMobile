@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class PastOrdersActivity : AppCompatActivity() {
     private lateinit var rvPastOrders: RecyclerView
+    //private lateinit var rvPastOrderItems: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,9 +22,16 @@ class PastOrdersActivity : AppCompatActivity() {
 
         rvPastOrders = findViewById(R.id.rvPastOrders)
 
-        rvPastOrders.adapter = PastOrdersAdapter(this, 3)
+        rvPastOrders.adapter = PastOrdersAdapter(this, 1)
         rvPastOrders.setHasFixedSize(true)
         rvPastOrders.layoutManager = GridLayoutManager(this, 1)
+
+        /*setContentView(R.layout.past_orders_item)
+        rvPastOrderItems = findViewById(R.id.rvPastOrderItems)
+
+        rvPastOrderItems.adapter = PastOrderItemsAdapter(this, 2)
+        rvPastOrderItems.setHasFixedSize(true)
+        rvPastOrderItems.layoutManager = GridLayoutManager(this, 1)*/
     }
 
     fun showMenu(v: View) {
