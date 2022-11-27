@@ -15,6 +15,7 @@
     <color name="giga_grey">#FFF3F4FF</color>
     <color name="giga_grey_200">#FFEDEEF2</color>
     <color name="light_grey">#FF616161</color>
+    <color name="lighter_grey">#FFE1E1E1</color>
     <color name="red_200">#FFFF5252</color>
     <color name="red_500">#FFF44336</color>
     <color name="red_700">#FFD50000</color>
