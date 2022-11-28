@@ -5,14 +5,19 @@
       <map>
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_account.xml" value="0.264" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_address.xml" value="0.25" />
+        <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
+        <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_locations.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_past_orders.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_payment_method.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_popup_menu.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_register.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_restaurants.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_sample.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_security.xml" value="0.264" />
+        <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activity_the_shack.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/activty_account.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/dashboard_menu.xml" value="0.25" />
         <entry key="..\:/Users/CS-MN-CS/AndroidStudioProjects/GigaMart/app/src/main/res/layout/past_order_items_item.xml" value="0.25" />
