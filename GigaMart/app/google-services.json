@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1083363582440",
+    "project_id": "gigamart-c1409",
+    "storage_bucket": "gigamart-c1409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083363582440:android:678b83ccb288364cec045d",
+        "android_client_info": {
+          "package_name": "com.example.gigamart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083363582440-djjlhq3ftj21lskne2u87pajj3pu54g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANVdNsh88aCRZ65nTSc8e-c0qGL63rcio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083363582440-djjlhq3ftj21lskne2u87pajj3pu54g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

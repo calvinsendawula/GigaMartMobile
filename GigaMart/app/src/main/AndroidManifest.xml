@@ -25,6 +25,11 @@
         <activity android:name=".SecurityActivity"></activity>
         <activity android:name=".PaymentMethodActivity"></activity>
         <activity android:name=".PastOrdersActivity"></activity>
+        <activity android:name=".LocationsActivity"></activity>
+        <activity android:name=".RestaurantsActivity"></activity>
+        <activity android:name=".TheShackActivity"></activity>
+        <activity android:name=".CartActivity"></activity>
+        <activity android:name=".CheckoutActivity"></activity>
     </application>
 
 </manifest>

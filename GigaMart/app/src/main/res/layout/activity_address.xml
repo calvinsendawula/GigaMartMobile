@@ -110,6 +110,7 @@
                     android:id="@+id/tvCity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:padding="8dp"
                     android:text="Address"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
