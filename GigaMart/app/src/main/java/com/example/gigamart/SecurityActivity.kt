@@ -9,11 +9,19 @@ import android.widget.Button
 import android.widget.PopupMenu
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class SecurityActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_security)
+
+        val forgotClick = findViewById<TextView>(R.id.tvForgotPassword)
+        forgotClick.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     fun showMenu(v: View) {
@@ -79,6 +87,7 @@ class SecurityActivity : AppCompatActivity() {
     }
 
     private fun dashLogout() {
+        Firebase.auth.signOut()
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }

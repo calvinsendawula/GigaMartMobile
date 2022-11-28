@@ -11,6 +11,8 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class PastOrdersActivity : AppCompatActivity() {
     private lateinit var rvPastOrders: RecyclerView
@@ -97,6 +99,7 @@ class PastOrdersActivity : AppCompatActivity() {
     }
 
     private fun dashLogout() {
+        Firebase.auth.signOut()
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
