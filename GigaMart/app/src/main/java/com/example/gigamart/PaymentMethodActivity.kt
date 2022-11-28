@@ -9,6 +9,8 @@ import android.widget.Button
 import android.widget.PopupMenu
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class PaymentMethodActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -79,6 +81,7 @@ class PaymentMethodActivity : AppCompatActivity() {
     }
 
     private fun dashLogout() {
+        Firebase.auth.signOut()
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }

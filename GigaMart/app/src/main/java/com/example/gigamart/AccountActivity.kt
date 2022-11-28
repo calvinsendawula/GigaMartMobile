@@ -13,8 +13,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.resources.Compatibility.Api21Impl.inflate
 import androidx.cardview.widget.CardView
 import androidx.core.content.res.ColorStateListInflaterCompat.inflate
-import androidx.core.content.res.ComplexColorCompat.inflate
 import androidx.core.graphics.drawable.DrawableCompat.inflate
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class AccountActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -85,6 +86,7 @@ class AccountActivity : AppCompatActivity() {
     }
 
     private fun dashLogout() {
+        Firebase.auth.signOut()
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
